@@ -1,0 +1,9 @@
+create database login;
+
+use login;
+
+create table usuarios (
+id INT AUTO_increment primary key,
+nome varchar(50) not null,
+senha varchar(50) not null
+);
